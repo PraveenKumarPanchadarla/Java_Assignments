@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter The Number : ");
+		int a=s.nextInt();
+		System.out.println("The Output of the Pattern is : ");
+		for(int i=a;i>0;i--){
+			for(int j=0;j<i;j++){
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+	}
+}
+/*------------------------------------
+Output :
+Enter The Number :
+6
+The Output of the Pattern is :
+ * * * * * *
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
+ 
+ */
